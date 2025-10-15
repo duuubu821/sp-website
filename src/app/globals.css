@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f3f4f6; /* light gray */
+  --fg: #1f2937; /* slate-800 for readable text */
+  --muted: #6b7280; /* gray-500 */
+  --card: #ffffff;
+  --accent: #9ca3af; /* gray-400 */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+.container-max {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-white/80 backdrop-blur rounded-xl border border-gray-200 shadow-sm;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+
+
