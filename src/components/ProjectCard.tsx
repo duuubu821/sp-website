@@ -1,7 +1,7 @@
 type Project = {
   title: string;
   description: string;
-  tags: string[];
+  tags: readonly string[];
   link?: string;
 };
 
