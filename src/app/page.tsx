@@ -6,7 +6,9 @@ export default function HomePage() {
       <Section title="Hello, I'm Kenneth" subtitle="Curious mind, hands-on builder. I love leading teams, writing code, and solving problems that connect people and ideas.">
         <div className="prose max-w-none">
           <p>
-            Curious mind, hands-on builder. I love leading teams, writing code, and solving problems that connect people and ideas.
+          Hi there! I’m Kenneth — an engineer, developer, and project enthusiast. I love 
+          turning ideas into working systems, from code to deployment. Feel free to explore my site to get to
+          know me better.
           </p>
         </div>
       </Section>
