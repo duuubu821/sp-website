@@ -8,7 +8,7 @@ export function NavLink({ href, children }: PropsWithChildren<{ href: string }>)
   const isActive = pathname === href;
   return (
     <Link
-      href={href}
+      href={href as any}
       className={
         'px-2 py-1 rounded-md transition-colors ' +
         (isActive
