@@ -18,7 +18,7 @@ const ENG_PROJECTS = [
     link: 'https://able-ai-mvp-able-ai-team.vercel.app/'
   },
   {
-    title: 'IT Support & Systems Technician',
+    title: 'IT Support & Systems Technician (ORION Studios)',
     description: 'Assembled and maintained custom computer systems, handled troubleshooting and performance optimization, and provided end-to-end technical support for clients and internal setups.',
     tags: ['Engineering', 'Hardware', 'Systems', 'Diagnostics', 'Optimization'] as const,
   },
