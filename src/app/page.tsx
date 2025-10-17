@@ -3,12 +3,10 @@ import { Section } from '@/components/Section';
 export default function HomePage() {
   return (
     <div className="space-y-8">
-      <Section title="Hello, I'm Sam Parker" subtitle="Designer-turned-developer building simple, thoughtful products.">
+      <Section title="Hello, I'm Kenneth" subtitle="Curious mind, hands-on builder. I love leading teams, writing code, and solving problems that connect people and ideas.">
         <div className="prose max-w-none">
           <p>
-            I enjoy crafting clean interfaces and robust systems. This site is a
-            lightweight draft with a light grey theme. Content is placeholder
-            for now.
+            Curious mind, hands-on builder. I love leading teams, writing code, and solving problems that connect people and ideas.
           </p>
         </div>
       </Section>

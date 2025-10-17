@@ -4,7 +4,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'SP – Personal Site',
+  title: 'Kenneth Espiritu',
   description: 'A minimal personal website in a light grey theme',
 };
 
