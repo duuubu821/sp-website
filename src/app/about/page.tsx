@@ -25,11 +25,44 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Skills" subtitle="Tools I use regularly">
-        <ul className="flex flex-wrap gap-2">
-          {['TypeScript', 'React', 'Next.js', 'Node.js', 'Tailwind', 'Postgres', 'Prisma'].map((s) => (
-            <li key={s} className="rounded-md bg-gray-100 px-2 py-1 text-sm text-gray-700">{s}</li>
-          ))}
-        </ul>
+        <div className="grid gap-6 sm:grid-cols-2">
+          <div>
+            <h3 className="text-sm font-medium text-gray-900">Development & Frontend</h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {["Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Git", "GitHub", "Vercel"].map((s) => (
+                <li key={s} className="rounded-md bg-gray-100 px-2 py-1 text-sm text-gray-700">{s}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-gray-900">Backend / Systems / Automation</h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {["Python", "Node.js", "Docker", "Linux", "Bash", "PowerShell", "Automation", "APIs", "REST", "Database Management", "Networking"].map((s) => (
+                <li key={s} className="rounded-md bg-gray-100 px-2 py-1 text-sm text-gray-700">{s}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-gray-900">AI & Automation Tools</h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {["AI Agents", "Copilot Studio", "PowerApps", "OpenAI API", "Gemini API", "LLMs", "Workflow Automation"].map((s) => (
+                <li key={s} className="rounded-md bg-gray-100 px-2 py-1 text-sm text-gray-700">{s}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-medium text-gray-900">Project Management / QA</h3>
+            <ul className="mt-2 flex flex-wrap gap-2">
+              {["Notion", "Trello", "Jira", "ClickUp", "Scrum", "Agile", "Documentation", "Testing"].map((s) => (
+                <li key={s} className="rounded-md bg-gray-100 px-2 py-1 text-sm text-gray-700">{s}</li>
+              ))}
+            </ul>
+          </div>
+
+        </div>
       </Section>
     </div>
   );
