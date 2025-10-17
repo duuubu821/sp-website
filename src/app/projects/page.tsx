@@ -4,7 +4,7 @@ import { SmallProjectCard } from '@/components/SmallProjectCard';
 
 const AI_PROJECTS = [
   {
-    title: 'AI Automation Consultant & Trainer',
+    title: 'AI Automation Consultant & Trainer (Intrinsic Behavioral)',
     description: 'Conducted workshops and consulting sessions for teams adopting AI agents and automation using PowerApps and Copilot Studio. Guided integration strategies, workflow automation design, and effective use of AI tools for business processes.',
     tags: ['AI', 'Automation', 'Powerapps', 'Copilot Studio', 'Consulting', 'Training', 'Workshops', 'Microsoft 365', 'Workflow Optimization'] as const,
   }
